@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/OliverLetterer/SPLMimeEntity.git", :tag => s.version.to_s }
   s.source_files  = 'SPLMimeEntity'
   s.dependency 'mimetic', '~> 0.9.7'
-  s.dependency 'CTOpenSSLWrapper', '~> 1.2.0'
+  s.dependency 'CTOpenSSLWrapper', '~> 1.0.0'
   s.requires_arc = true
 end
